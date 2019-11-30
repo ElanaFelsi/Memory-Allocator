@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/elana/BootCamp-HW/c/memory-memory-allocator-ElanaFelsi/main.c
+stdio.h
+-
+stdlib.h
+-
+memory_allocator.h
+/home/elana/BootCamp-HW/c/memory-memory-allocator-ElanaFelsi/memory_allocator.h
+
+/home/elana/BootCamp-HW/c/memory-memory-allocator-ElanaFelsi/memory_allocator.c
+stddef.h
+-
+memory_allocator.h
+/home/elana/BootCamp-HW/c/memory-memory-allocator-ElanaFelsi/memory_allocator.h
+
+/home/elana/BootCamp-HW/c/memory-memory-allocator-ElanaFelsi/memory_allocator.h
+stddef.h
+-
+
